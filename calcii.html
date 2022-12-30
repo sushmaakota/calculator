@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calcii.css">
+        <title>javascript calci</title>
+        <script>
+        function clearScreen(){
+            var x=document.getElementById("b1");
+            document.getElementById("demo").value="clear ";
+        }
+        </script>
+    </head>
+<body>
+    <center>
+        <h1 style="margin: 50px 500px;">CALCULATOR</h1>
+    <div class="formstyle">
+        <form name="f1">
+        <input type="text" name="answer" id="cal"><br>
+
+        <input type = "button" value = "(" onclick = "f1.answer.value += '(' ">  
+        <input type = "button" value = ")" onclick = "f1.answer.value += ')' ">  
+        <button id="b1" onclick="clearScreen()">Clear</button><br>
+
+        <input type = "button" value = "7" onclick = "f1.answer.value +=  '7' ">  
+        <input type = "button" value = "8" onclick = "f1.answer.value += '8' ">  
+        <input type = "button" value = "9" onclick = "f1.answer.value += '9' ">  
+        <input type = "button" value = "+" onclick = "f1.answer.value += '+' ">   <br>
+
+        <input type = "button" value = "4" onclick = "f1.answer.value += '4' ">  
+        <input type = "button" value = "5" onclick = "f1.answer.value += '5' ">  
+        <input type = "button" value = "6" onclick = "f1.answer.value += '6' ">  
+        <input type = "button" value = "*" onclick = "f1.answer.value += '*' "> <br>
+
+        <input type = "button" value = "1" onclick = "f1.answer.value += '1' ">  
+        <input type = "button" value = "2" onclick = "f1.answer.value += '2' ">  
+        <input type = "button" value = "3" onclick = "f1.answer.value += '3' ">  
+        <input type = "button" value = "-" onclick = "f1.answer.value += '-' ">  <br>
+
+        <input type = "button" value = "." onclick = "f1.answer.value += '.' ">  
+        <input type = "button" value = "0" onclick = "f1.answer.value += '0' ">  
+        <input type = "button" value = "/" onclick = "f1.answer.value += '/' ">  
+        <input type = "button" value = "=" onclick = "f1.answer.value = eval(f1.answer.value)">  
+         
+        
+    </div>
+    </center>
+</body>
+</html>

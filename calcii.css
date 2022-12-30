@@ -1,0 +1,43 @@
+.formstyle  
+{  background-color:rgb(209, 228, 235);
+width: 250px;  
+height: 325px;  
+margin: auto;  
+border: 3px solid skyblue;  
+border-radius: 5px;  
+padding: 20px; 
+ 
+}  
+input  
+{  
+width: 15px; 
+height: 10px;
+background-color: rgb(131, 166, 212);  
+color: rgb(11, 10, 10);  
+border: 3px solid gray;  
+border-radius: 5px;  
+padding: 20px;  
+margin: 5px;  
+text-align: center; 
+
+}
+button{
+width: 15px; 
+height: 10px;
+background-color: rgb(131, 166, 212);  
+color: rgb(11, 10, 10);  
+border: 3px solid gray;  
+border-radius: 5px;  
+padding:20px 48px 20px 48px; 
+margin: 5px;  
+text-align: center;
+}
+#cal{
+    background-color: rgb(148, 179, 194);
+    width: 220px; 
+    border-radius: 3px;  
+    padding: 20px;  
+    margin: auto;  
+    text-align: center; 
+
+}  
